@@ -1,0 +1,6 @@
+framework module Pods_TimeNotes {
+  umbrella header "Pods-TimeNotes-umbrella.h"
+
+  export *
+  module * { export * }
+}

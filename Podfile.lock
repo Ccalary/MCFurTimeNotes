@@ -1,0 +1,32 @@
+PODS:
+  - FDFullscreenPopGesture (1.1)
+  - IQKeyboardManager (6.0.2)
+  - KVOController (1.2.0)
+  - Masonry (1.1.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - FDFullscreenPopGesture (= 1.1)
+  - IQKeyboardManager
+  - KVOController
+  - Masonry
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FDFullscreenPopGesture
+    - IQKeyboardManager
+    - KVOController
+    - Masonry
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  IQKeyboardManager: c49d59e358aeeffaa0280aa305093c2b194d2607
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 20ba668efe399edb474e4daaf0e17ad91b2312ec
+
+COCOAPODS: 1.5.3
