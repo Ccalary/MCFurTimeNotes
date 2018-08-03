@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -22,7 +21,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入标签内容" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="0re-f5-yUd">
-                    <rect key="frame" x="15" y="46" width="290" height="40"/>
+                    <rect key="frame" x="15" y="26" width="290" height="40"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="hiZ-RB-JBZ"/>
                     </constraints>
@@ -31,14 +30,14 @@
                     <textInputTraits key="textInputTraits"/>
                 </textField>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XPP-DJ-u0x">
-                    <rect key="frame" x="0.0" y="86" width="320" height="1"/>
+                    <rect key="frame" x="0.0" y="66" width="320" height="1"/>
                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="1" id="US1-xO-M0T"/>
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4LJ-VK-yIG">
-                    <rect key="frame" x="0.0" y="45" width="320" height="1"/>
+                    <rect key="frame" x="0.0" y="25" width="320" height="1"/>
                     <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="1" id="hdE-g4-ZCx"/>
@@ -47,17 +46,16 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="4LJ-VK-yIG" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="5EW-Lh-vJ3"/>
-                <constraint firstItem="4LJ-VK-yIG" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="25" id="90x-T1-4V3"/>
+                <constraint firstItem="4LJ-VK-yIG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="5EW-Lh-vJ3"/>
+                <constraint firstItem="4LJ-VK-yIG" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="25" id="90x-T1-4V3"/>
                 <constraint firstItem="0re-f5-yUd" firstAttribute="top" secondItem="4LJ-VK-yIG" secondAttribute="bottom" id="BRD-zH-eOj"/>
-                <constraint firstItem="XPP-DJ-u0x" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="Blw-EB-ZxL"/>
-                <constraint firstItem="0re-f5-yUd" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="15" id="WTq-XR-4AB"/>
+                <constraint firstItem="XPP-DJ-u0x" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Blw-EB-ZxL"/>
+                <constraint firstItem="0re-f5-yUd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="WTq-XR-4AB"/>
                 <constraint firstAttribute="trailing" secondItem="0re-f5-yUd" secondAttribute="trailing" constant="15" id="WbA-b4-v0n"/>
-                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="XPP-DJ-u0x" secondAttribute="trailing" id="avH-Mr-prD"/>
+                <constraint firstAttribute="trailing" secondItem="XPP-DJ-u0x" secondAttribute="trailing" id="avH-Mr-prD"/>
                 <constraint firstItem="XPP-DJ-u0x" firstAttribute="top" secondItem="0re-f5-yUd" secondAttribute="bottom" id="gHg-Pv-HS8"/>
-                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="4LJ-VK-yIG" secondAttribute="trailing" id="puz-8i-kY8"/>
+                <constraint firstAttribute="trailing" secondItem="4LJ-VK-yIG" secondAttribute="trailing" id="puz-8i-kY8"/>
             </constraints>
-            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
         </view>
     </objects>
 </document>
